@@ -35,5 +35,9 @@ set directory=~/.vim/tmp
 " set undofile
 " set undodir=~/.vim/undo
 
-" special-r sources raingbow-parentheses
-noremap <leader>r :so ~/.vim/bundle/Rainbow-Parenthesis/syntax/RainbowParenthsis.vim <RETURN>
+" Rainbow Parentheses
+au VimEnter * RainbowParenthesesToggle
+au Syntax * RainbowParenthesesLoadRound
+au Syntax * RainbowParenthesesLoadSquare
+au Syntax * RainbowParenthesesLoadBraces
+
