@@ -13,3 +13,6 @@
 [submodule "bundle/vim-markdown"]
 	path = bundle/vim-markdown
 	url = https://github.com/tpope/vim-markdown.git
+[submodule "bundle/candycode.vim"]
+	path = bundle/candycode.vim
+	url = https://github.com/vim-scripts/candycode.vim.git
