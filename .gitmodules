@@ -16,3 +16,6 @@
 [submodule "bundle/candycode.vim"]
 	path = bundle/candycode.vim
 	url = https://github.com/vim-scripts/candycode.vim.git
+[submodule "bundle/molokai"]
+	path = bundle/molokai
+	url = https://github.com/vim-scripts/molokai.git

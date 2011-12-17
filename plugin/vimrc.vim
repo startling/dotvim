@@ -36,7 +36,7 @@ set directory=~/.vim/tmp
 " set undodir=~/.vim/undo
 
 " Vim theme
-:colorscheme candycode
+:colorscheme molokai
 
 " Rainbow Parentheses
 au VimEnter * RainbowParenthesesToggle
