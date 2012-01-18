@@ -7,7 +7,7 @@ let mapleader = ","
 
 " Turn the bell off...
 set noerrorbells
-" Have the filename in the bar below, down there 
+" Have the filename in the bar below, down there
 set ls=2
 set showmode
 set notitle
@@ -38,9 +38,19 @@ set directory=~/.vim/tmp
 " Vim theme
 :colorscheme molokai
 
+"map `:whitespace` to remove all trailing whitespace.
+command Space %s/\s\+$
+
+" Json highlighting via javascript
+autocmd BufNewFile,BufRead *.json set ft=javascript
+
 " Rainbow Parentheses
 au VimEnter * RainbowParenthesesToggle
 au Syntax * RainbowParenthesesLoadRound
 au Syntax * RainbowParenthesesLoadSquare
 au Syntax * RainbowParenthesesLoadBraces
+
+" Make a view on quit; load it on open.
+au BufWinLeave * mkview
+au BufWinEnter * silent loadview
 
