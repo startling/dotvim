@@ -19,3 +19,12 @@
 [submodule "bundle/molokai"]
 	path = bundle/molokai
 	url = https://github.com/vim-scripts/molokai.git
+[submodule "bundle/bnf"]
+	path = bundle/bnf
+	url = https://github.com/vim-scripts/bnf.vim.git
+[submodule "bundle/ebnf"]
+	path = bundle/ebnf
+	url = https://github.com/vim-scripts/ebnf.vim.git
+[submodule "bundle/happy"]
+	path = bundle/happy
+	url = https://github.com/vim-scripts/happy.vim.git
