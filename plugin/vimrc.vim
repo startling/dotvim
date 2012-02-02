@@ -51,6 +51,8 @@ au Syntax * RainbowParenthesesLoadSquare
 au Syntax * RainbowParenthesesLoadBraces
 
 " Make a view on quit; load it on open.
-au BufWinLeave * mkview
-au BufWinEnter * silent loadview
+au BufReadPost * silent loadview
+au BufWritePost * mkview
+"au BufWinLeave * mkview
+"au BufWinEnter * silent loadview
 
