@@ -16,6 +16,7 @@ set notitle
 set tabstop=4
 set shiftwidth=4
 set softtabstop=4
+set bs=2
 set expandtab
 
 " encoding...
