@@ -4,6 +4,7 @@
 [submodule "bundle/delimitmate"]
 	path = bundle/delimitmate
 	url = https://github.com/vim-scripts/delimitMate.vim.git
+    ignore = untracked
 [submodule "bundle/rainbow_parentheses"]
 	path = bundle/rainbow_parentheses
 	url = https://github.com/vim-scripts/rainbow_parentheses.vim
@@ -43,6 +44,7 @@
 [submodule "bundle/vimwiki"]
 	path = bundle/vimwiki
 	url = https://github.com/vim-scripts/vimwiki.git
+    ignore = untracked
 [submodule "bundle/surround"]
 	path = bundle/surround
 	url = https://github.com/tpope/vim-surround.git
@@ -52,6 +54,7 @@
 [submodule "bundle/conque"]
 	path = bundle/conque
 	url = https://github.com/rson/vim-conque.git
+    ignore = untracked
 [submodule "bundle/fish"]
 	path = bundle/fish
 	url = https://github.com/vim-scripts/fish.vim.git
