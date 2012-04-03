@@ -57,3 +57,5 @@ au BufWritePost * mkview
 "au BufWinLeave * mkview
 "au BufWinEnter * silent loadview
 
+" vimwiki split-and-follow-link, because it doesn't work in my terminal
+map <Leader><CR> <Plug>VimwikiVSplitLink
