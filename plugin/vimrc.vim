@@ -59,3 +59,13 @@ au BufWritePost * mkview
 
 " vimwiki split-and-follow-link, because it doesn't work in my terminal
 map <Leader><CR> <Plug>VimwikiVSplitLink
+
+" some ConqueTerm mappings
+:map <Leader>p :ConqueTerm python<CR>
+:map <Leader>vp :ConqueTermVSplit python<CR>
+:map <Leader>h :ConqueTerm ghci<CR>
+:map <Leader>vh :ConqueTermVSplit ghci<CR>
+:map <Leader>s :ConqueTerm racket<CR>
+:map <Leader>vs :ConqueTermVSplit racket<CR>
+:map <Leader>i :ConqueTerm io<CR>
+:map <Leader>vi :ConqueTermVSplit io<CR>
