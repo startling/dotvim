@@ -69,3 +69,6 @@ map <Leader><CR> <Plug>VimwikiVSplitLink
 :map <Leader>vs :ConqueTermVSplit racket<CR>
 :map <Leader>i :ConqueTerm io<CR>
 :map <Leader>vi :ConqueTermVSplit io<CR>
+
+" split to this file
+:map <Leader>rc :vsplit ~/.vim/plugin/vimrc.vim<CR>
