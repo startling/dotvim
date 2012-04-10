@@ -58,3 +58,6 @@
 [submodule "bundle/fish"]
 	path = bundle/fish
 	url = https://github.com/vim-scripts/fish.vim.git
+[submodule "bundle/nerdtree"]
+	path = bundle/nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
