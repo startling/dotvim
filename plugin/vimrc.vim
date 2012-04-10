@@ -3,7 +3,7 @@ syntax on
 " turn filetype off and on again, for pathogen
 filetype off
 filetype plugin indent on
-let mapleader = ","
+let mapleader = ";"
 
 " Turn the bell off...
 set noerrorbells
@@ -72,3 +72,6 @@ map <Leader><CR> <Plug>VimwikiVSplitLink
 
 " split to this file
 :map <Leader>rc :vsplit ~/.vim/plugin/vimrc.vim<CR>
+
+" nerdtree
+:map <Leader>t :NERDTreeToggle<CR>
