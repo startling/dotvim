@@ -63,12 +63,16 @@ map <Leader><CR> <Plug>VimwikiVSplitLink
 " some ConqueTerm mappings
 :map <Leader>p :ConqueTerm python<CR>
 :map <Leader>vp :ConqueTermVSplit python<CR>
+:map <Leader>g :ConqueTerm ghci<CR>
+:map <Leader>vg :ConqueTermVSplit ghci<CR>
 :map <Leader>s :ConqueTerm racket<CR>
 :map <Leader>vs :ConqueTermVSplit racket<CR>
 :map <Leader>i :ConqueTerm io<CR>
 :map <Leader>vi :ConqueTermVSplit io<CR>
 :map <Leader>z :ConqueTerm zsh<CR>
 :map <Leader>vz :ConqueTermVSplit zsh<CR>
+:map <Leader>f :ConqueTerm fish<CR>
+:map <Leader>vf :ConqueTermVSplit fish<CR>
 
 " vertical help
 :map <Leader>h :vert help 
